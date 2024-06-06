@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Music Library",
@@ -15,12 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <p>Root page layout</p>
-        {/* this is available across all the pages in an app */}
-        {children}
-      </body>
+    <html lang="en" className="dark">
+      <body className={GeistSans.className}>{children}</body>
     </html>
   );
 }
