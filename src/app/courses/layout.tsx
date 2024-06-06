@@ -1,12 +1,15 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+
 export default function RootLayout({
-     children,
+  children,
 }: Readonly<{
-     children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-     return (
-          <>
-          <h3>Course layout structure</h3>
-               {children}
-          </>
-     );
+  return (
+    <>
+      <Navbar />
+      {children}
+    </>
+  );
 }
