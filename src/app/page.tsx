@@ -1,6 +1,7 @@
-import FeaturedCourses from "./components/FeaturedCourses";
 import Navbar from "./components/Navbar";
 import Hero from "./components/ui/Hero";
+import FeaturedCourses from "./components/FeaturedCourses";
+import WhyChooseUs from "./components/ui/WhyChooseUS";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeaturedCourses />
+      <WhyChooseUs />
     </main>
   );
 }
