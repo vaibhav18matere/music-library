@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/ui/Hero";
-import FeaturedCourses from "./components/FeaturedCourses";
-import WhyChooseUs from "./components/ui/WhyChooseUS";
+import { Hero } from "./components/Hero";
+import { FeaturedCourses } from "./components/FeaturedCourses";
+import { WhyChooseUs } from "./components/WhyChooseUS";
 
 export default function Home() {
   return (

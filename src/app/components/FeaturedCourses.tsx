@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./ui/background-gradient";
 import { Button } from "./ui/moving-border";
 import { Course } from "@/data/types";
 
-function FeaturedCourses() {
+export const FeaturedCourses = () => {
   const featuredCourses = courseData.courses.filter(
     (course: Course) => course.isFeatured
   );
@@ -53,6 +53,4 @@ function FeaturedCourses() {
       </div>
     </div>
   );
-}
-
-export default FeaturedCourses;
+};
