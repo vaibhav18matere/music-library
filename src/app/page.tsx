@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { FeaturedCourses } from "./components/FeaturedCourses";
 import { WhyChooseUs } from "./components/WhyChooseUS";
+import { MusicTestimonials } from "./components/TestimonialCards";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeaturedCourses />
+      <MusicTestimonials />
       <WhyChooseUs />
     </main>
   );
