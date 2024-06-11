@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { FeaturedCourses } from "./components/FeaturedCourses";
 import { WhyChooseUs } from "./components/WhyChooseUS";
 import { MusicTestimonials } from "./components/TestimonialCards";
+import Webinars from "./components/Webinars";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <FeaturedCourses />
       <MusicTestimonials />
+      <Webinars />
       <WhyChooseUs />
     </main>
   );
