@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { featuredWebinars } from "./../../data/content";
-import { featuredWebinarsType } from "@/data/types";
 import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { Button } from "./ui/moving-border";
@@ -21,7 +20,7 @@ const Webinars = () => {
 
         <div className="mt-10">
           <HoverEffect
-            items={featuredWebinars.map((webinar: featuredWebinarsType) => ({
+            items={featuredWebinars.map((webinar) => ({
               title: webinar.title,
               description: webinar.description,
               link: "/",

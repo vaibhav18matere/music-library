@@ -8,10 +8,3 @@ export interface Course {
   isFeatured: boolean;
   image: string;
 }
-
-export interface featuredWebinarsType {
-  title: string;
-  description: string;
-  slug: string;
-  isFeatured: boolean;
-}
