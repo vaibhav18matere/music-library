@@ -4,6 +4,7 @@ import { FeaturedCourses } from "./components/FeaturedCourses";
 import { WhyChooseUs } from "./components/WhyChooseUS";
 import { MusicTestimonials } from "./components/TestimonialCards";
 import Webinars from "./components/Webinars";
+import InstructorsList from "./components/InstructorsList";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedCourses />
       <MusicTestimonials />
       <Webinars />
+      <InstructorsList/>
       <WhyChooseUs />
     </main>
   );
